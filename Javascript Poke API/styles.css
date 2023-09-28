@@ -1,0 +1,148 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(248, 69, 69);
+}
+
+#resultado button{
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 15px;
+}
+
+#resultado a{
+    color: black;
+    text-decoration: none;
+}
+
+#resultado img{
+    width: 180px;
+    margin-top: 10px;
+    background-color: dimgray;
+    border-radius: 15px;
+}
+
+#resultado{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding-top: 60px;
+}
+
+#resultado h3{
+    margin: 5px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    background-color: brown;
+    height: 60px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    z-index: 50;
+}
+
+nav button{
+    border-style: none;
+    background-color: brown;
+}
+
+#enviar{
+    background-color: white;
+    width: 25px;
+    height: 25px;
+    border: solid 2px black;
+    margin-left: 5px;
+}
+
+#btnAtras{
+    margin-right: 10vw;
+    transform: rotate(90deg);
+}
+
+#btnAdelante{
+    margin-left: 10vw;
+    transform: rotate(-90deg);
+}
+
+nav button img{
+    width: 50px;
+}
+
+nav input{
+    color: black;
+    height: 25px;
+    background-color: white;
+    padding: 5px;
+}
+
+#btnRegreso{
+    transform: rotate(180deg);
+    margin-right: 10vw;
+}
+
+#contenedor{
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+#contenedor div{
+    margin-top: 10px;
+    width: 350px;
+    height: 600px;
+    text-align: center;
+    border-radius: 15px;
+    color: black;
+    text-decoration: none;
+    background-color: aliceblue;
+}
+
+#contenedor img{
+    width: 300px;
+    margin-top: 10px;
+    background-color: dimgray;
+    border-radius: 15px;
+}
+
+#contenedor button img{
+    width: 80px;
+    margin-top: 0px;
+    background-color: transparent;
+    transform: rotate(90deg);
+    background-color: dimgray;
+    border-radius: 15px;
+    margin-bottom: 110px;
+}
+
+#contenedor button{
+    border-style: none;
+    background-color: aliceblue;
+}
+
+#contenedor h2{
+    margin: 5px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#info{
+    height: 220px;
+}
+
+#info h3{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 12px;
+}
